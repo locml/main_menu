@@ -13,7 +13,7 @@ No downloadable released for this project, okay ?
 # Final
 I'm not allowed any fork of this since I uploaded for make as a template 
 
-(require permisson for modified and fork).
+(Send me at ntienloc057@gmail.com for modified and fork).
 
 
 (Making a new game with game.py)
