@@ -1,24 +1,24 @@
-(Some of thing you must know)
+# Some of thing you must know
 
-# First
+## First
 To see the first version I made this project return to [novelpy](https://github.com/locml/novelpy) and watch menu.py for the code.
 
 And now I remove ```draw_rect()``` and use ```pygame.draw.rect()``` even added the menu as object class instead.
 
 I also added a frame for the list of buttons and create them in roundrect style instead of rect.
 
-# Second
+## Second
 No downloadable released for this project, okay ?
 
-# Final
+## Final
 I'm not allowed any fork of this since I uploaded for make as a template 
 
 (Send me at ntienloc057@gmail.com for modified and fork).
 
 
-(Making a new game with game.py)
+# Making a new game with game.py
 
-# How to do ?
+## How to do ?
 
 Write a variable and add ```MainMenu()``` as an object class.
 LLike this:
@@ -44,11 +44,11 @@ class MainMenu(object):
 mainmenu = MainMenu() # Replace mainmenu before the "=" of this line with your name you want
 ```
 
-# Second (How to draw the rect directly to the screen add at the loop)
+## Second (How to draw the rect directly to the screen add at the loop)
 ```py
     mainmenu.draw(screen)
 ```
-# Final (Add the rect collidepoint in the loop event pygame.MOUSEBUTTONDOWN)
+## Final (Add the rect collidepoint in the loop event pygame.MOUSEBUTTONDOWN)
 ```py
         if event.type == pygame.MOUSEBUTTONDOWN:
             if mainmenu.button_one.collidepoint(event.pos):
