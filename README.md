@@ -3,7 +3,7 @@
 # First
 To see the first version I made this project return to [novelpy](https://github.com/locml/novelpy) and watch menu.py for the code.
 
-And now I remove ```draw_rect()``` and use ```pygame.draw.rect()``` also added the menu as object class instead.
+And now I remove ```draw_rect()``` and use ```pygame.draw.rect()``` even added the menu as object class instead.
 
 I also added a frame for the list of buttons and create them in roundrect style instead of rect.
 
