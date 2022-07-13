@@ -13,6 +13,8 @@ No downloadable released for this project, okay ?
 ## Final
 I'm not allowed any fork of this since I uploaded for make as a template 
 
+project for Python and PyGame only.
+
 (Send me at ntienloc057@gmail.com for modified and fork).
 
 
@@ -21,7 +23,8 @@ I'm not allowed any fork of this since I uploaded for make as a template
 ## How to do ?
 
 Write a variable and add ```MainMenu()``` as an object class.
-LLike this:
+
+L-Like this:
 
 ```py
 # Define our class object named "MainMenu".
@@ -44,7 +47,7 @@ class MainMenu(object):
 mainmenu = MainMenu() # Replace mainmenu before the "=" of this line with your name you want
 ```
 
-## Second (How to draw the rect directly to the screen add at the loop)
+## Second (How to draw the rect directly to the screen at the loop)
 ```py
     mainmenu.draw(screen)
 ```
